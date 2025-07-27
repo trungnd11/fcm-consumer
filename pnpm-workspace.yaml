@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - core-js
+
+overrides:
+  fcm-client: link:../fcm
+  fcm-rslib: link:../../../Library/pnpm/global/5/node_modules/fcm-rslib
