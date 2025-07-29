@@ -1,6 +1,11 @@
+packages:
+  - '.'
+  - '../fcm-rslib'
+
 onlyBuiltDependencies:
   - core-js
 
-overrides:
-  fcm-client: link:../fcm
-  fcm-rslib: link:../../../Library/pnpm/global/5/node_modules/fcm-rslib
+# Ensure Vue is hoisted to avoid multiple instances
+hoistPattern:
+  - vue
+  - vue*
