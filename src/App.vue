@@ -12,11 +12,11 @@ import { Notification } from 'fcm-rslib';
 // };
 
 // const { requestPermissionAndGetToken, initializeFCM, listNotification } = useNotification();
-
+//
 // watch(listNotification, (newVal) => {
 //   console.log('[APP] listNotification:', newVal);
 // });
-
+//
 // onMounted(() => {
 //   requestPermissionAndGetToken();
 //   initializeFCM();
@@ -24,7 +24,7 @@ import { Notification } from 'fcm-rslib';
 </script>
 
 <template>
-  <div :style="{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }">
+  <div :style="{ position: 'fixed', top: '30px', right: '30px' }">
     <Notification />
   </div>
 </template>
