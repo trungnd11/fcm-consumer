@@ -8,7 +8,7 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "fcm-rslib": "file:../fcm-client",
+    "f-notification": "file:../fcm-rslib",
     "vue": "^3.5.18"
   },
   "devDependencies": {
